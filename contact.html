@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Yario WhatsApp Business Automation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <a href="index.html" class="text-2xl font-bold text-green-600">
+                            <i class="fab fa-whatsapp"></i> Yario WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:text-green-600 transition duration-300">Home</a>
+                    <a href="privacy-policy.html" class="text-gray-700 hover:text-green-600 transition duration-300">Privacy</a>
+                    <a href="terms-of-service.html" class="text-gray-700 hover:text-green-600 transition duration-300">Terms</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
+            <p class="text-xl text-gray-600">Get in touch with our team for support, sales, or partnership inquiries</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Contact Form -->
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-6">Send us a message</h2>
+                
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" required 
+                               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" required 
+                               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    
+                    <div>
+                        <label for="company" class="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
+                        <input type="text" id="company" name="company" 
+                               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                        <select id="subject" name="subject" required 
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            <option value="">Select a subject</option>
+                            <option value="sales">Sales Inquiry</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="demo">Request Demo</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" required 
+                                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                                  placeholder="Tell us how we can help you..."></textarea>
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300">
+                        <i class="fas fa-paper-plane mr-2"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="space-y-8">
+                <!-- Company Info -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-6">Get in touch</h2>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-envelope text-green-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Email Support</h3>
+                                <p class="text-gray-600">support@yario.ai</p>
+                                <p class="text-sm text-gray-500">We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-phone text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Phone Support</h3>
+                                <p class="text-gray-600">+1 (555) 123-4567</p>
+                                <p class="text-sm text-gray-500">Monday - Friday, 9 AM - 6 PM EST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Office Address</h3>
+                                <p class="text-gray-600">
+                                    123 Tech Street<br>
+                                    Suite 100<br>
+                                    San Francisco, CA 94105
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support Hours -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-6">Support Hours</h2>
+                    
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Monday - Friday</span>
+                            <span class="font-semibold">9:00 AM - 6:00 PM EST</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Saturday</span>
+                            <span class="font-semibold">10:00 AM - 4:00 PM EST</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Sunday</span>
+                            <span class="text-gray-500">Closed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 p-4 bg-green-50 rounded-lg">
+                        <p class="text-sm text-green-800">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            For urgent technical issues, please email us at 
+                            <a href="mailto:urgent@yario.ai" class="font-semibold hover:underline">urgent@yario.ai</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-6">Quick Links</h2>
+                    
+                    <div class="space-y-3">
+                        <a href="docs/faq.html" class="flex items-center text-gray-600 hover:text-green-600 transition duration-300">
+                            <i class="fas fa-question-circle mr-3"></i>
+                            Frequently Asked Questions
+                        </a>
+                        <a href="docs/api.html" class="flex items-center text-gray-600 hover:text-green-600 transition duration-300">
+                            <i class="fas fa-book mr-3"></i>
+                            API Documentation
+                        </a>
+                        <a href="docs/guides.html" class="flex items-center text-gray-600 hover:text-green-600 transition duration-300">
+                            <i class="fas fa-graduation-cap mr-3"></i>
+                            Integration Guides
+                        </a>
+                        <a href="docs/status.html" class="flex items-center text-gray-600 hover:text-green-600 transition duration-300">
+                            <i class="fas fa-heartbeat mr-3"></i>
+                            System Status
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Enterprise Contact -->
+        <div class="mt-12 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg p-8 text-white text-center">
+            <h2 class="text-3xl font-bold mb-4">Enterprise Solutions</h2>
+            <p class="text-xl mb-6">
+                Need a custom solution for your large organization? Our enterprise team is here to help.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:enterprise@yario.ai" 
+                   class="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                    Contact Enterprise Sales
+                </a>
+                <a href="docs/enterprise.html" 
+                   class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition duration-300">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 Yario WhatsApp Business Automation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+        });
+    </script>
+</body>
+</html>
